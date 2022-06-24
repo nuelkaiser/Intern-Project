@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.green-container {
+  background: seagreen;
+  height: 100vh;
+  width: 50%;
+}
+
+.blue-container {
+  background: cornflowerblue;
+  height: 100vh;
+  width: 50%;
+}
+
+.choice-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 25%;
+  padding: 10px 30px;
+  left: 35%;
+  border-radius: 7px;
+}
+
+.total-votes {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
